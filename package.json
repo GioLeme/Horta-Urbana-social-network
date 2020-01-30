@@ -1,41 +1,40 @@
 {
   "name": "social-network",
-  "version": "1.0.0",
-  "description": "Social Network @ Laboratoria",
-  "main": "src/index.html",
-  "keywords": [
-    "javascript",
-    "firebase",
-    "jest"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "htmlhint": "htmlhint dist/*.html ",
-    "eslint": "eslint --ext .js src/ test/",
-    "stylelint": "stylelint --aei src/**/*.css",
-    "lint": "npm run eslint && npm run htmlhint && npm run stylelint",
-    "test": "jest --coverage --watch",
-    "pretest": "npm run lint",
-    "start": "serve src/",
-    "sass": "sass --watch src/scss/styles.scss src/style.css"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^24.8.0",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.1.2",
-    "htmlhint": "^0.11.0",
-    "jest": "^24.8.0",
-    "regenerator-runtime": "^0.13.1",
-    "stylelint": "^10.1.0",
-    "stylelint-config-recommended": "^2.2.0"
-  },
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "node-sass": "^4.12.0",
-    "serve": "^11.2.0"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "firebase": "^7.7.0",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.24.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "sweetalert2-react": "^0.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "lint": "eslint src",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
