@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.headerTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 0;
+}
+
+.headerTitle h2 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-right: 8px;    
+}
+
+.headerTitle small {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left: 8px;    
+}
+
+.headerTitle > div:first-child {
+    margin-right: 30px;
+}
+
+.postCard {
+    border: 1px solid #bbbb94;
+    margin-top: 25px;
+    width: 50vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.commentsTitle {
+    margin-top: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.postContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.postContent p {
+    padding-left: 10px;
+}
+
+.postContent img {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.footer {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer > div:first-child {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+    .postCard {
+        width: 90vw;
+    }
+}
+
+
+

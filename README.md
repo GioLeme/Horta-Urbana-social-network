@@ -1,50 +1,68 @@
-# Informações iniciais:
-Este projeto foi proposto pela LaboratóriaBR e foi desenvolvido pelas alunas Giovanna Lima, Juanita Solano e Mônica Sousa.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Definição de produto
-A rede social "Horta Urbana" foi desenvolvida para promover a interação entre pessoas que estejam interessadas em compartilhar informações sobre hortas e pequenos plantios.
+## Available Scripts
 
-## Personas
-A partir disso, criamos a seguinte persona:  
-  Nome: Bárbara
-  Profissão:  Estudante de Engenharia Ambiental
-  Idade: 25 anos
-  Genêro: Feminino
-  Mídias: Instagram, WhatsApp e LinkedIn
+In the project directory, you can run:
 
-  Objetivos:
-  Bárbara tem como objetivo compartilhar conhecimentos adquiridos na faculdade e impactar positivamente as metrópoles, que são as áreas mais afetadas devido as poucas áreas verdes e excesso de agrotóxicos nos alimentos. Também gostaria construir e adquirir conhecimentos de como cuidar de uma horta e assim obter seus próprios alimentos (orgânicos) e ter uma alimentação mais saúdavel. 
-  
-  Desafios: Construir uma plataforma que conecta pessoas com os mesmos interesses da Bárbara e proporcione o intercâmbio de informações, ideias e a permuta de sementes e mudas. 
-  
-  Como esta Rede Social pode ajudá-la? Com a "Horta Urbana" é possível compartilhar como dar início a hortas caseiras para quem ainda não começou, e dicas para os que já estão familiarizados com esses hábitos! 
+### `npm start`
 
-## Histórias de Usuário
-Esta aplicação é uma Rede Social onde o usuário pode ingressar criando uma conta na aplicação ou por meio de uma conta Google. Ao fazer login o usuário pode postar suas ideias, perguntas e interagir com outros usuários ao ler posts e por meio de comentários. 
-O usuário tem poder de criar, editar e deletar suas postagens e comentar e "dar like" nos posts dos demais usuários. 
-Na página de "Meu Perfil" o usuário consegue editar suas informações pessoais e visualizar todas as suas postagens. No "Feed" o usuário visualiza as postagens dos demais usuários cadastrados com os quais pode interagir.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-As funcionalidades foram designadas com as seguintes demandas do usuário.
-- Como usuário novo é possível: 
-    - criar uma conta com email e senha válidos para poder iniciar uma sessão e ingressar na Rede Social.
-    - ter a opção de iniciar sessão com uma conta Google para ingressar na Rede Social sem necessidade de criar uma conta de email válido.
-- Como usuário logado é possível: 
-    - criar, guardar, modificar no mesmo lugar (in place) e deletar publicações (post) privadas ou públicas.
-    - ver todos os posts públicos e seus posts privados criados até o momento, do mais recente para o mais antigo, assim como a opção de trocar a configuração de privacidade dos posts.
-    - dar like e ver a contagem de likes nas publicações.
-    - escrever, salvar e deletar seus comentários feitos.
-    - postar fotos.
-    - visualizar os dados do perfil criado e editá-los.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Desenvolvimento do Projeto
-Este projeto foi desenvolvido em 3 semanas, desde o planejamento inicial, até a entrega do MVP, V1.
+### `npm test`
 
-No primeiro sprint fizemos a tela de login e a página de cadastro.
-No segundo sprint fizemos o feed e suas funcionalidades (post, CRUD, implementação de hora e nome dos usuários).
-No terceiro sprint implementamos a privacidade dos posts, página de perfil e edição da biografia, post de fotos e a opção de deletar um comentário feito.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Nossa definição de pronto foi a entrega das tarefas com o layout finalizado, o teste de usabilidade feito e código aceito na master por todas as integrantes.
+### `npm run build`
 
-Demonstração da página do Feed:
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<a href="https://imgflip.com/gif/3efx4t"><img src="https://i.imgflip.com/3efx4t.gif" title="made at imgflip.com"/></a>
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

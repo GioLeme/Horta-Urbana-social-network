@@ -2,3 +2,7 @@
 *.swp
 coverage/
 node_modules/
+firebase.json
+.firebaserc
+build/
+confirg/

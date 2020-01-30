@@ -1,0 +1,52 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.splashScreen{
+    height: 100vh;
+}
+
+.sectionComponent{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+    width: 100vw;
+}
+
+.loginComponent{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+}
+
+.backgroundImage{
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.backgroundImage img {
+    width: 40%;  
+}
+
+@media screen and (max-width: 800px) {
+    .sectionComponent {
+        flex-direction: column-reverse;
+    }
+    .backgroundImage img {
+        width: 100%;  
+    }
+    .backgroundImage{
+        flex: 0;
+        align-items: flex-start;
+    }
+    .loginComponent {
+        flex: 2;
+        align-items: flex-start;
+    }
+}
