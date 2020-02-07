@@ -1,0 +1,41 @@
+.card{
+    border: 2px solid #bbbb94;
+    margin-top: 25px;
+    width: 50vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.inputPhoto {
+    position: absolute;
+    visibility: hidden;
+}
+
+.postFooter{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 15px;
+    max-height: 40%;
+    border-top: 1px solid #bbbb94;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnPost{
+  max-width: 20%;
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        width: 90vw;
+    }
+    .postFooter {
+        max-height: 70%;
+    }
+    .btnPost {
+        max-width: 27%;
+    }
+}
