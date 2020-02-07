@@ -1,0 +1,56 @@
+.profileBtn,
+.logoutBtn {
+  background-color: #ffffff ;
+  color: #222;
+  width: auto !important;
+}
+
+.profileBtn:hover,
+.logoutBtn:hover {
+  text-decoration: underline;
+}
+
+.header {
+    width: 99vw;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerImg {
+    width: 200px;
+}
+
+.headerImg img {
+    width: 100%;
+}
+  
+.sideMenu {
+    background-color: #fff;
+    display: flex !important;
+    flex-direction: column;
+    position: fixed;
+    left: 0px;
+    top: -500px;
+}
+  
+.toggleSideMenu {
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    position: absolute;
+}
+
+.toggleSideMenu:checked+.sideMenu {
+    top: 53px;
+    transition: all .4s linear;
+}
+
+@media screen and (max-width: 800px) {
+    .headerImg {
+        margin-left: 30px;
+    }
+}

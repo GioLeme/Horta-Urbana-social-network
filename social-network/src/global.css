@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+input {
+    padding: 8px;
+    font-size: 15px;
+    border: 0;
+    color: #333;
+    width: 100%;
+    background-color: #e0efcb;
+}
+
+input:focus {
+    outline: none
+}
+
+.btn {
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+    padding: 8px 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;    
+}
+
+.btn:disabled {
+    background-color: #ddd;
+    color: #222;
+    cursor: not-allowed;
+}
+
+.btn-primary {
+    background-color: #97c160;
+    color: #222;
+}
+
+.btn-danger {
+    background-color: #bb1d1d;
+    color: #fff;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.56); 
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.56);
+}
+
+.hide-desktop {
+    display: none;
+}
+
+.hide-mobile {
+    display: block;
+}
+
+.image-icon {
+    cursor: pointer;
+    font-size: 20px !important;
+}
+
+.text-area{
+    border: 0;
+    padding: 10px;
+    resize: vertical;
+}
+ 
+.text-area:focus{
+    outline: none;
+    background-color: rgba(228, 240, 229, 0.363);
+}
+
+.fill-red {
+    color: #900 !important;
+}
+
+.fill-green {
+    color: #090 !important;
+}
+
+.link {
+    color: #000;
+    text-decoration: underline;
+    margin-left: 15px
+}
+
+@media screen and (max-width: 800px) {
+    .hide-desktop {
+        display: block;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
